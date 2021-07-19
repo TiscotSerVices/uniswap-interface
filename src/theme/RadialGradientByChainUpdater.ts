@@ -44,7 +44,7 @@ export default function RadialGradientByChainUpdater(): null {
       case SupportedChainId.OPTIMISTIC_KOVAN:
         setBackground(backgroundResetStyles)
         const optimismLightGradient = 'radial-gradient(150% 100% at 50% 0%, #FFFBF2 2%, #FFF4F9 53%, #FFFFFF 100%)'
-        const optimismDarkGradient = 'radial-gradient(150% 100% at 50% 0%, #3E2E38 2%, #2C1F2D 53%, #1F2128 100%)'
+        const optimismDarkGradient = 'radial-gradient(150% 100% at 50% 0%, #FF7900 2%, #FFD600 53%, #FFFF00 100%)'
         backgroundRadialGradientElement.style.background = darkMode ? optimismDarkGradient : optimismLightGradient
         break
       default:
